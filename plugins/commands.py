@@ -2,8 +2,8 @@ from pyrogram.types import InlineKeyboardMarkup, InlineKeyboardButton
 from pyrogram import Client, filters
 
 
-REPO = "**🗂️ Repo :** [VcBot Repo](https://github.com/The-HellBot/VcBot)\n\n🌟 **Github :** [The-HellBot](https://github.com/The-HellBot) \n\n**📍   [Group](https://t.me/hellbot_chat)  &  [Channel](https://t.me/its_hellbot)   📍**"
-HOME_TEXT = "💖 **Hi [{}](tg://user?id={})**,\n\nI'm **Hêll Music Bot** \nI Can Play Radio/Stream Music In Channels & Groups 24x7 Nonstop!\n\n**😉 Happy Streaming 😉**"
+REPO = "**🗂️ Repo :** [VcBot Repo](https://heroku.com/deploy?template=https://github.com/Harris7864/VcBot/tree/main)\n\n🌟 **Github :** [Harris](https://github.com/Harris7864 \n\n**📍   [Group](https://t.me/ROBOT1_SUPPORT)  &  [Channel](https://t.me/theheavenm)   📍**"
+HOME_TEXT = "💖 **Hi [{}](tg://user?id={})**,\n\nI'm **heaven music Bot** \nI Can Play Radio/Stream Music In Channels & Groups 24x7 Nonstop!\n\n**😉 Happy Streaming 😉**"
 HELP = """**Join @The_HellBot and @Its_Fuckin_Hell to get more help!!
 
 🏷️ **Users Commands**:
@@ -35,12 +35,12 @@ HELP = """**Join @The_HellBot and @Its_Fuckin_Hell to get more help!!
 async def start(client, message):
     buttons = [
         [
-        InlineKeyboardButton('📺 CHANNEL', url='https://t.me/The_HellBot'),
-        InlineKeyboardButton('🏘️ Group', url='https://t.me/Its_Fuckin_Hell'),
+        InlineKeyboardButton('📺 CHANNEL', url='https://t.me/theheavenm'),
+        InlineKeyboardButton('🏘️ Group', url='https://t.me/ROBOT1_SUPPORT'),
     ],
     [
-        InlineKeyboardButton('📑 GitHub', url='https://github.com/The-HellBot'),
-        InlineKeyboardButton('📜 VcBot Repo', url='https://github.com/The-HellBot/VcBot'),
+        InlineKeyboardButton('📑 GitHub', url='https://github.com/Harris7864'),
+        InlineKeyboardButton('📜 VcBot Repo', url='https://heroku.com/deploy?template=https://github.com/Harris7864/VcBot/tree/main'),
     ],
     [
         InlineKeyboardButton('⚙️ HELP ⚙️', callback_data='help'),
